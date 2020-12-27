@@ -45,7 +45,7 @@ def main(
     ),
 ):
     """
-    Wrapper library for pywal to generate more diverse colors
+    Wrapper CLI for pywal to generate more diverse colors
     """
     all_colors = pywal.colors.get(img=img, backend=backend)
     colors, special = all_colors["colors"], all_colors["special"]
